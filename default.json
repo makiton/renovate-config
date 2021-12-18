@@ -18,6 +18,7 @@
     "stabilityDays": 2
   },
   "vulnerabilityAlerts": {
-    "labels": ["security"]
+    "labels": ["security"],
+    "automerge": true
   }
 }
