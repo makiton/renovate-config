@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":automergePatch", ":separateMultipleMajorReleases", ":timezone(Asia/Tokyo)"],
+  "labels": ["dependencies"],
   "major": {
     "stabilityDays": 7
   },
